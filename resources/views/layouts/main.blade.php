@@ -4,8 +4,18 @@
 <head>
     <meta charset="utf-8">
     <title>
-        GREAT EVER  COMPANY LIMITED - @yield('title')
+        GREAT EVER COMPANY LIMITED - @yield('title')
     </title>
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="GREAT EVER COMPANY LIMITED" />
+    <meta property="og:description " content="GREAT EVER COMPANY LIMITED" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:image:alt" content="GREAT EVER COMPANY LIMITED" />
+    <link rel="shortcut icon" href="{{ asset('data/company/logo_only.png') }}" />
+    <meta property="og:image" content="{{ asset('data/company/logo.png') }}" />
 
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">

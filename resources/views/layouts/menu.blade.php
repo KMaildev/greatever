@@ -35,11 +35,12 @@
         style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;">
 
         <div class="main-box">
-            <div class="logo-box">
+            {{-- logo-box --}}
+            <div class="" style="margin-right: 50px;">
                 <div class="logo">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('data/company/logo.png') }}" alt="Logo" title="Simtech"
-                            style="width: 100px;">
+                        <img src="{{ asset('data/company/logo.png') }}" alt="Logo"
+                            title="GREAT EVER  COMPANY LIMITED" style="width: 200px;">
                     </a>
                 </div>
             </div>
@@ -56,7 +57,7 @@
 
                         <li class="dropdown">
                             <a href="javascript::void(0)">
-                                About Us
+                                About
                             </a>
                             <ul class="sub-menu">
                                 <li>
@@ -70,8 +71,6 @@
                                         Company History
                                     </a>
                                 </li>
-
-
 
                                 <li>
                                     <a href="{{ route('team') }}">
@@ -172,7 +171,7 @@
 
                         <li>
                             <a href="{{ route('contact.index') }}">
-                                Contact Us
+                                Contact
                             </a>
                         </li>
                     </ul>
@@ -201,26 +200,47 @@
 
         <nav class="menu-box">
             <div class="upper-box">
-                <div class="nav-logo"><a href="index.html"><img src="{{ asset('assets/images/logo.png') }}" alt></a>
+                <div class="nav-logo">
+                    <a href="{{ route('home') }}">
+                        <img src="{{ asset('data/company/logo.png') }}" alt>
+                    </a>
                 </div>
                 <div class="close-btn"><i class="icon fa fa-times"></i></div>
             </div>
-            <ul class="navigation clearfix">
 
+            <ul class="navigation clearfix">
             </ul>
             <ul class="contact-list-one">
-                <li> <i class="icon lnr-icon-phone-handset"></i> <span class="title">Call Now</span>
-                    <div class="text"><a href="tel:+92880098670">+92 (8800) - 98670</a></div>
-                </li>
-                <li> <i class="icon lnr-icon-envelope1"></i> <span class="title">Send Email</span>
-                    <div class="text"><a
-                            href="https://html.kodesolution.com/cdn-cgi/l/email-protection#adc5c8c1ddedcec2c0ddccc3d483cec2c0"><span
-                                class="__cf_email__"
-                                data-cfemail="e38b868f93a3808c8e93828d9acd808c8e">[email&#160;protected]</span></a>
+                <li>
+                    <i class="icon lnr-icon-phone-handset"></i>
+                    <span class="title">Call Now</span>
+                    <div class="text">
+                        <a href="tel:+959 5122659" class="tel:0123456789">
+                            +959 5122659,
+                        </a>
+
+                        <a href="tel:+959 690903095" class="tel:0123456789">
+                            +959 690903095
+                        </a>
                     </div>
                 </li>
-                <li> <i class="icon lnr-icon-map-marker"></i> <span class="title">Address</span>
-                    <div class="text">66 Broklyant, New York India 3269</div>
+
+                <li>
+                    <i class="icon lnr-icon-envelope1"></i>
+                    <span class="title">Send Email</span>
+                    <div class="text">
+                        <a href="mailto:greatever.agency@gmail.com">
+                            greatever.agency@gmail.com
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <i class="icon lnr-icon-map-marker"></i>
+                    <span class="title">Address</span>
+                    <div class="text">
+                        NO. 26, YARZAR DIRIT STREET, EAST DAGON TOWNSHIP, YANGON, MYANMAR.
+                    </div>
                 </li>
             </ul>
             <ul class="social-links">
@@ -237,7 +257,11 @@
         <div class="auto-container">
             <div class="inner-container">
 
-                <div class="logo"> <a href="index.html"><img src="{{ asset('assets/images/logo.png') }}" alt></a>
+                <div class="">
+                    <a href="{{ route('home') }}">
+                        <img src="{{ asset('data/company/logo.png') }}" alt="GREAT EVER  COMPANY LIMITED"
+                            style="width: 100px;">
+                    </a>
                 </div>
 
                 <div class="nav-outer">

@@ -2,265 +2,210 @@
 @section('title', 'About Us')
 @section('content')
 
-    <section class="page-about section-padding">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-6">
-                    <div class="image">
-                        <img src="{{ asset('data/sdagon.jpg') }}" alt="image" style="width:100%;">
-                        <div class="sm-image d-none d-sm-block">
-                            <img src="{{ asset('assets/data/about4.png') }}" alt="image">
-                        </div>
-                        <div class="video-btn-wrp d-none d-sm-block">
-                            <div class="">
-                                <a class="video-popup secondary-bg" href=""><i class=""></i></a>
-                            </div>
-                        </div>
-                        <div class="info d-none d-sm-block">
-                            <h2 style="color:#08AC61"><span class="count">5</span>+</h2>
-                            <span>Years Experience</span>
-                        </div>
-                        <div class="stroke-text d-none d-sm-block">
-                            <h2>since 2019</h2>
-                        </div>
-                    </div>
-                </div>
+    <section class="page-title" style="background-image: url({{ asset('data/about-banner.jpg') }});">
+        <div class="auto-container">
+            <div class="title-outer text-center">
+                <h1 class="title">About Us</h1>
+                <ul class="page-breadcrumb">
+                    <li><a href="{{ route('home') }}">Home</a></li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-                <div class="col-lg-6">
-                    <div class="right-item">
-                        <div class="section-header mb-5">
+    <section class="about-section">
+        <div class="icon-shape-4"></div>
+        <div class="auto-container">
+            <div class="row">
 
-                            <h2 class="wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".6s">
-                                GREAT EVER  COMPANY LIMITED
+                <div class="content-column col-lg-6 col-md-12 col-sm-12 order-lg-2 wow fadeInRight" data-wow-delay="300ms">
+                    <div class="inner-column">
+                        <div class="sec-title"> <span class="sub-title">our introduction</span>
+                            <h2 class="scrub-each-word text-split">
+                                GREAT EVER CO.,LTD
                             </h2>
-
-                            <h5 style="padding-top: 15px;" class="wow fadeInUp" data-wow-duration="1.3s"
-                                data-wow-delay=".3s">
-                                “Empowering Futures, Connecting Worlds”
-                            </h5>
-
-                            <br>
-                            <h5 style="color: black;">
-                                Introduction
-                            </h5>
-                            <p class="wow fadeInUp" data-wow-duration="1.9s" data-wow-delay=".9s">We have
-                                GREAT EVER  COMPANY LIMITED Co., Ltd (Overseas Myanmar Manpower Employment Agency) was founded in
-                                2019, emerging as a distinguished and expertly managed international manpower recruitment
-                                consultant. With a core focus on Thailand, Malaysia, and Japan job markets, we deliver
-                                premium recruitment services to diverse industries. Drawing from our extensive recruitment
-                                experience, we cater to various employment levels as per our clients' demands across
-                                multiple sectors. These include poultry processing, food and beverages production, wood
-                                processing, plastics and rubber manufacturing, leather production, construction, hospitality
-                                services, agriculture, and other vital sectors.
-                            </p>
-                        </div>
-                        <div class="row g-4">
-                            <div class="col-6 wow fadeInLeft" data-wow-duration="1.6s" data-wow-delay=".6s">
-                                <ul>
-                                    <li><i class="fa-solid mb-4 me-2  fa-gear" style="color:#08AC61"></i> Best
-                                        Integrity
-                                        Support
-                                    </li>
-                                    <li><i class="fa-solid me-2 primary-color fa-gear"></i> Professional
-                                        Expertise
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-6 wow fadeInRight" data-wow-duration="1.6s" data-wow-delay=".6s">
-                                <ul>
-                                    <li><i class="fa-solid mb-4 me-2 primary-color fa-gear"></i>
-                                        Respectful
-                                    </li>
-                                    <li><i class="fa-solid me-2 primary-color fa-gear"></i> Customer-Centricity
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <div class="about_info d-flex align-items-center pt-65 wow fadeInUp" data-wow-duration="1.9s"
-                            data-wow-delay=".9s">
-                            <a href="{{ route('contact.index') }}" class="btn-one"
-                                style="background-color: #08AC61;"><span>Contact Us</span>
-                                <i class="fa-solid fa-arrow-right"></i></a>
-                            <span class="bor-left d-none d-sm-block mx-4"></span>
-                            <div class="info d-flex flex-wrap align-items-center">
-                                <i class="fa-solid fa-phone-volume ring-animation" style="color:#08AC61"></i>
-                                <div class="about_info_con">
-                                    <span class="d-block text-capitalize">call any time</span>
-                                    <a href="tel: +9595038526"> +9595038526</a>
-                                </div>
+                            <div class="text" style="text-align: justify; font-size: 17px;">
+                                Great Ever Company Limited was established in 2018.(License No.115470728) We, thereafter,
+                                obtained our overseas employment agency license in 2019 (License No.244/2019) and overseas
+                                employment agency license for Thailand in 2022 (License No.199/2022) issued by the Ministry
+                                of Labor, Immigration and Population, Republic of the Union of Myanmar. We are also the
+                                member of Myanmar Oversea Employment Agencies Federation (MOEAF) .
+                                <br><br>
+                                We pride ourselves on being your gateway to global career opportunities. As an overseas
+                                employment agency, we are dedicated to simplifying the process of finding the perfect job
+                                abroad. Our experienced team is committed to understanding your unique skills, aspirations,
+                                and preferences, ensuring a personalized approach to your international employment journey.
+                                With a vast network of global employers, we connect talented individuals with exciting
+                                opportunities across various industries.
+                                <br><br>
+                                Join us at Great Ever Co.,Ltd and let's embark on a journey together, turning your dreams of
+                                working overseas into a reality.
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="image-column col-lg-6 col-md-12 col-sm-12 wow fadeInRight">
+                    <div class="inner-column">
+                        <div class="icon-dots-2 bounce-y"></div>
+                        <div class="image-box">
+                            <figure class="image overlay-anim reveal">
+                                <img src="{{ asset('data/2.jpg') }}" alt="Image">
+                            </figure>
+                            <figure class="image-2 overlay-anim reveal">
+                                <img src="{{ asset('data/3.jpg') }}" alt="Image" style="width: 60%;">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
 
-    <section class="choose bg-image section-padding">
-        <div class="shape d-none d-xl-block float-bob-x">
-            <img src="{{ asset('assets/images/choose/shape.png') }}" alt="">
-        </div>
-        <div class="container">
-            <div class="row mb-5 mb-lg-0 ">
-                <div class="col-lg-6">
-                    <div class="section-header">
-                        <h5 class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s">CORE FEATURES</h5>
-                        <h2 class="wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".6s">Why Choose Us</h2>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <p class="wow fadeInUp" data-wow-duration="1.9s" data-wow-delay=".9s">
-                        We consider our clients’ tasks as one
-                        of our own, therefore we doing our best to satisfy all expectations.
-                    </p>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-xl-3 col-lg-6 col-md-6">
-                    <div class="item">
-                        <img src="{{ asset('assets/images/icon/choose1.png') }}" alt="icon">
-                        <h4>Expert Teams</h4>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6">
-                    <div class="item">
-                        <img src="{{ asset('assets/images/icon/choose2.png') }}" alt="icon">
-                        <h4>Commit to Clients</h4>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6">
-                    <div class="item">
-                        <img src="{{ asset('data/lightbulb.png') }}" alt="icon" style="width: 40%;">
-                        <h4>Innovation</h4>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6">
-                    <div class="item">
-                        <img src="{{ asset('data/reputation-management.png') }}" alt="icon" style="width: 40%;">
-                        <h4>Reputation</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="story section-padding sub-bg">
-        <div class="container">
-            <div class="section-header text-center position-relative">
-                <h5 class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s">our case study</h5>
-                <h2 class="wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".6s">Cour recent work
+    <section class="news-section" style="padding: 10px 0 90px;">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <span class="sub-title">
+                    Company Information
+                </span>
+                <h2 class="scrub-each-word text-split">
+                    Our update licenses, <br>
+                    Approved by Ministry of Labour
                 </h2>
             </div>
-            <div class="wrp">
-                <div class="line d-none d-lg-block"></div>
-                <div class="main-item pb-65">
-                    <div class="row g-5 align-items-center ">
-                        <div class="col-lg-6 d-flex justify-content-end">
-                            <img style="width: 30%;" src="{{ asset('data/monitoring.png') }}" alt="image">
+
+            <div class="row align-items-center d-flex justify-content-around">
+
+                <div class="news-block col-lg-3 col-md-3 wow fadeInUp">
+                    <div class="inner-box"
+                        style="box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;">
+                        <div class="image-box">
+                            <figure class="image">
+                                <a href="javascript::void(0)">
+                                    <img src="{{ asset('data/company/1.png') }}" alt="Image"
+                                        style="width: 100%; height: 340px; background-size: top; object-position: top; object-fit: cover;">
+                                    <img src="{{ asset('data/company/1.png') }}" alt="Image"
+                                        style="width: 100%; height: 340px; background-size: top; object-position: top; object-fit: cover;">
+                                </a>
+                            </figure>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="item">
-                                <div class="title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
-                                    <span class="primary-color pb-2">
-                                        GREAT EVER  COMPANY LIMITED
-                                    </span>
-                                    <h3 class="text-capitalize">
-                                        <a href="javascript::void(0)">
-                                            Our Vision
-                                        </a>
-                                    </h3>
-                                    <p class="pt-4">
-                                        To provide skillful Myanmar workers to all over the world according to the
-                                        international labour
-                                        standards and to be the most successful firm.
-                                    </p>
-                                </div>
-                            </div>
+                        <div class="content-box" style="padding: 0px 0px 0px;">
+                            <h4 class="title" style="font-size: 13px; text-align: center;">
+                                Overseas Employment Agency Licence
+                            </h4>
                         </div>
                     </div>
                 </div>
 
-                <div class="main-item pb-65">
-                    <div class="row g-5 align-items-center">
-                        <div class="col-lg-6">
-                            <div class="item">
-                                <div class="title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
-                                    <span class="primary-color left-span pb-2">
-                                        GREAT EVER  COMPANY LIMITED
-                                    </span>
-                                    <h3 class="text-capitalize">
-                                        <a href="javascript::void(0)">
-                                            Our mission
-                                        </a>
-                                    </h3>
-                                    <p class="pt-4">
-                                        To establish a seamless connection between skilled Myanmar workers and world-class
-                                        companies situated in all over the world. Through this collaboration, we seek to
-                                        cultivate mutual
-                                        growth and prosperity for both parties involved.
-                                    </p>
-                                </div>
-                            </div>
+                <div class="news-block col-lg-3 col-md-3 wow fadeInUp">
+                    <div class="inner-box"
+                        style="box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;">
+                        <div class="image-box">
+                            <figure class="image">
+                                <a href="javascript::void(0)">
+                                    <img src="{{ asset('data/company/2.png') }}" alt="Image"
+                                        style="width: 100%; height: 340px; background-size: top; object-position: top; object-fit: cover;">
+                                    <img src="{{ asset('data/company/2.png') }}" alt="Image"
+                                        style="width: 100%; height: 340px; background-size: top; object-position: top; object-fit: cover;">
+                                </a>
+                            </figure>
                         </div>
-                        <div class="col-lg-6">
-                            <a href="javascript::void()" class="image d-block">
-                                <img style="width: 30%;" src="{{ asset('data/target.png') }}" alt="image">
-                            </a>
+                        <div class="content-box" style="padding: 0px 0px 0px;">
+                            <h4 class="title" style="font-size: 13px; text-align: center;">
+                                Overseas Employment Agency Licence
+                            </h4>
                         </div>
                     </div>
                 </div>
 
-                <div class="main-item">
-                    <div class="row g-5 align-items-center">
-                        <div class="col-lg-6 d-flex justify-content-end">
-                            <img style="width: 30%;" src="{{ asset('data/market.png') }}" alt="image">
+                <div class="news-block col-lg-3 col-md-3 wow fadeInUp">
+                    <div class="inner-box"
+                        style="box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;">
+                        <div class="image-box">
+                            <figure class="image">
+                                <a href="javascript::void(0)">
+                                    <img src="{{ asset('data/company/3.png') }}" alt="Image"
+                                        style="width: 100%; height: 340px; background-size: top; object-position: top; object-fit: cover;">
+                                    <img src="{{ asset('data/company/3.png') }}" alt="Image"
+                                        style="width: 100%; height: 340px; background-size: top; object-position: top; object-fit: cover;">
+                                </a>
+                            </figure>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="item">
-                                <div class="title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
-                                    <span class="primary-color pb-2">
-                                        GREAT EVER  COMPANY LIMITED
-                                    </span>
-                                    <h3 class="text-capitalize">
-                                        <a href="javascript::void(0)">
-                                            Values
-                                        </a>
-                                    </h3>
-                                    <p class="pt-4">
-                                        Our values underscore our commitment to excellence
-                                    </p>
+                        <div class="content-box" style="padding: 0px 0px 0px;">
+                            <h4 class="title" style="font-size: 13px; text-align: center;">
+                                Overseas Employment Agency Licence for Thailand
+                            </h4>
+                        </div>
+                    </div>
+                </div>
 
-                                    <div class="row g-4 py-3">
-                                        <div class="col-6 wow fadeInLeft" data-wow-duration="1.6s" data-wow-delay=".6s">
-                                            <ul>
-                                                <li><i class="fa-solid mb-4 me-2 primary-color fa-gear"></i>
-                                                    Safety and Security
-                                                </li>
-                                                <li><i class="fa-solid  mb-4 me-2 primary-color fa-gear"></i>
-                                                    Customer Priority
-                                                </li>
+            </div>
 
-                                                <li><i class="fa-solid me-2 primary-color fa-gear"></i>
-                                                    Training Contribution
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-6 wow fadeInRight" data-wow-duration="1.6s" data-wow-delay=".6s">
-                                            <ul>
-                                                <li><i class="fa-solid mb-4 me-2 primary-color fa-gear"></i>
-                                                    Affordability
-                                                </li>
-                                                <li><i class="fa-solid me-2 primary-color fa-gear"></i>
-                                                    Service Excellence
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="row align-items-center d-flex justify-content-around py-3">
+                <div class="news-block col-lg-3 col-md-3 wow fadeInUp">
+                    <div class="inner-box"
+                        style="box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;">
+                        <div class="image-box">
+                            <figure class="image">
+                                <a href="javascript::void(0)">
+                                    <img src="{{ asset('data/company/4.png') }}" alt="Image"
+                                        style="width: 100%; height: 340px; background-size: top; object-position: top; object-fit: cover;">
+                                    <img src="{{ asset('data/company/4.png') }}" alt="Image"
+                                        style="width: 100%; height: 340px; background-size: top; object-position: top; object-fit: cover;">
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="content-box" style="padding: 0px 0px 0px;">
+                            <h4 class="title" style="font-size: 13px; text-align: center;">
+                                Overseas Employment Agency Licence for Thailand
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="news-block col-lg-3 col-md-3 wow fadeInUp">
+                    <div class="inner-box"
+                        style="box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;">
+                        <div class="image-box">
+                            <figure class="image">
+                                <a href="javascript::void(0)">
+                                    <img src="{{ asset('data/company/5.png') }}" alt="Image"
+                                        style="width: 100%; height: 340px; background-size: top; object-position: top; object-fit: cover;">
+                                    <img src="{{ asset('data/company/5.png') }}" alt="Image"
+                                        style="width: 100%; height: 340px; background-size: top; object-position: top; object-fit: cover;">
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="content-box" style="padding: 0px 0px 0px;">
+                            <h4 class="title" style="font-size: 13px; text-align: center;">
+                                Overseas Employment Agency Licence for Thailand
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="news-block col-lg-3 col-md-3 wow fadeInUp">
+                    <div class="inner-box"
+                        style="box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;">
+                        <div class="image-box">
+                            <figure class="image">
+                                <a href="javascript::void(0)">
+                                    <img src="{{ asset('data/company/6.png') }}" alt="Image"
+                                        style="width: 100%; height: 340px; background-size: top; object-position: top; object-fit: cover;">
+                                    <img src="{{ asset('data/company/6.png') }}" alt="Image"
+                                        style="width: 100%; height: 340px; background-size: top; object-position: top; object-fit: cover;">
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="content-box" style="padding: 0px 0px 0px;">
+                            <h4 class="title" style="font-size: 13px; text-align: center;">
+                                Overseas Employment Agency Licence for Thailand
+                            </h4>
                         </div>
                     </div>
                 </div>
@@ -269,18 +214,242 @@
     </section>
 
 
-    <section class="video-area bg-2 bg-image section-padding" style="background-image: url({{ asset('data/obj.jpg') }})">
-        <div class="container">
-            <h2 class="pt-65 wow fadeInDown" data-wow-duration="1.9s" data-wow-delay=".3s">
-                Objectives
-            </h2>
 
-            <p style="color: white; font-size: 18px;">
-                Our central objective is to bridge the gap between Myanmar's skilled workforce and the global
-                business landscape. By sourcing and deploying highly skilled individuals, we aim to fulfill the
-                employment needs of various industries while actively combating unemployment challenges
-                within our country.
-            </p>
+    <section class="features-section-three">
+        <div class="bg bg-image" style="background-image: url({{ asset('assets/images/background/1.jpg') }});"></div>
+        <div class="large-container">
+            <div class="sec-title text-center">
+                <span class="sub-title">
+                    GREAT EVER COMPANY LIMITED
+                </span>
+                <h2 class="scrub-each-word text-split">
+                    Our Vision, Mission & Value
+                </h2>
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-xl-4 col-lg-4">
+                    <div class="service-sidebar">
+                        <div class="sidebar-widget service-sidebar-single">
+                            <div class="service-details-help">
+                                <div class="help-shape-1"></div>
+                                <div class="help-shape-2"></div>
+                                <h2 class="help-title">Contact with <br> us for any <br> advice</h2>
+                                <div class="help-icon">
+                                    <span class=" lnr-icon-phone-handset"></span>
+                                </div>
+                                <div class="help-contact">
+                                    <p>Need help? Talk to an expert</p>
+                                    <a href="tel:+959 5122659">
+                                        +959 5122659
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="sidebar-widget service-sidebar-single mt-4">
+                                <div class="service-sidebar-single-btn wow fadeInUp" data-wow-delay="0.5s"
+                                    data-wow-duration="1200m">
+                                    <a href="{{ asset('data/company/profile.pdf') }}"
+                                        class="theme-btn btn-style-one d-grid" target="_blank">
+                                        <span class="btn-title">
+                                            <span class="fas fa-file-pdf"></span>
+                                            download pdf file
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-xl-8 col-lg-8">
+                    <div class="services-details__content">
+                        <div class="mt-25">
+                            <ul class="accordion-box wow fadeInRight">
+
+                                <li class="accordion block active-block">
+                                    <div class="acc-btn active">
+                                        <span class="count">1.</span>
+                                        Our Vision
+                                        <div class="icon fa fa-plus"></div>
+                                    </div>
+                                    <div class="acc-content current">
+                                        <div class="content">
+                                            <div class="text">
+                                                "Empowering individuals to achieve global career success through seamless
+                                                overseas employment opportunities. We envision a future where every
+                                                individual can achieve their professional dreams globally."
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="accordion block active-block">
+                                    <div class="acc-btn active">
+                                        <span class="count">2.</span>
+                                        Our Mission
+                                        <div class="icon fa fa-plus"></div>
+                                    </div>
+                                    <div class="acc-content current">
+                                        <div class="content">
+                                            <div class="text">
+                                                We aim to provide our candidates to grow their careers with best companies
+                                                according to their qualifications, skills and experiences and place them on
+                                                right jobs at right time.
+                                                Connecting talents with opportunities abroad, we strive to make
+                                                international careers accessible and fulfilling through tailored support and
+                                                expertise.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="accordion block active-block">
+                                    <div class="acc-btn active">
+                                        <span class="count">3.</span>
+                                        Our Value
+                                        <div class="icon fa fa-plus"></div>
+                                    </div>
+                                    <div class="acc-content current">
+                                        <div class="content">
+                                            <div class="text">
+                                                Our core values define our commitment to excellence and integrity in the
+                                                overseas employment landscape. With a focus on integrity, client-centricity,
+                                                and respect for diversity, we empower individuals to navigate global
+                                                careers. Collaboration and innovation drive us, ensuring adaptability in the
+                                                dynamic job market.
+                                                At the heart of our company, these values guide our actions, shape our
+                                                identity, and fuel our mission to connect individuals with rewarding
+                                                international employment opportunities.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
+
+
+    <section class="process-section" style="padding: 50px 0 50px;">
+        <div class="bg bg-pattern-4"></div>
+        <div class="small-container">
+            <div class="sec-title text-center" style="margin-bottom: 30px;">
+                <span class="sub-title">GREAT EVER COMPANY LIMITED</span>
+                <h2 class="scrub-each-word text-split">
+                    Our Objectives
+                </h2>
+            </div>
+            <div class="row">
+                <p style="color: black; font-size: 18px;">
+                    Our central objective is to bridge the gap between Myanmar's skilled workforce and the global
+                    business landscape. By sourcing and deploying highly skilled individuals, we aim to fulfill the
+                    employment needs of various industries while actively combating unemployment challenges
+                    within our country.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="call-to-action pull-down">
+        <div class="auto-container">
+            <div class="outer-box wow fadeInLeft">
+                <div class="title-box">
+                    <h4 class="title">
+                        If you have any queries?
+                    </h4>
+                </div>
+                <div class="icon-box"> <i class="icon fa fa-comments"></i>
+                    <div class="icon-lines-14"></div>
+                </div>
+                <div class="contact-box">
+                    <h6>
+                        Call Now
+                    </h6>
+                    <div class="contact">Free <a href="tel:+959 5122659">+959 5122659</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="features-section-two pt-20">
+        <div class="icon-lines-18"></div>
+        <div class="auto-container">
+            <div class="row">
+                <div class="content-column col-lg-6 wow fadeInLeft" data-wow-delay="300ms">
+                    <div class="inner-column">
+                        <div class="sec-title light">
+                            <span class="sub-title">What We’re offering</span>
+                            <h2 class="wow fadeInUp">
+                                Our Sending Country
+                            </h2>
+                        </div>
+                        <div class="row">
+
+                            <div class="feature-block-two col-sm-6">
+                                <div class="inner-box">
+                                    <img src="{{ asset('data/japan.png') }}" alt="" style="width: 20%;">
+                                    <h5 class="title">
+                                        &nbsp;&nbsp; Japan
+                                    </h5>
+                                </div>
+                            </div>
+
+                            <div class="feature-block-two col-sm-6">
+                                <div class="inner-box">
+                                    <img src="{{ asset('data/malaysia.png') }}" alt="" style="width: 20%;">
+                                    <h5 class="title">
+                                        &nbsp;&nbsp; Malaysia
+                                    </h5>
+                                </div>
+                            </div>
+
+                            <div class="feature-block-two col-sm-6">
+                                <div class="inner-box">
+                                    <img src="{{ asset('data/singapore.png') }}" alt="" style="width: 20%;">
+                                    <h5 class="title">
+                                        &nbsp;&nbsp; Singapore
+                                    </h5>
+                                </div>
+                            </div>
+
+                            <div class="feature-block-two col-sm-6">
+                                <div class="inner-box">
+                                    <img src="{{ asset('data/thailand.png') }}" alt="" style="width: 20%;">
+                                    <h5 class="title">
+                                        &nbsp;&nbsp; Thailand
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="image-column col-lg-6">
+                    <div class="inner-column">
+                        <div class="overlay-4"></div>
+                        <div class="image-box">
+                            <figure class="image">
+                                <img style="width: 100%" src="{{ asset('data/world_map.jpeg') }}" alt="Image">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 @endsection
